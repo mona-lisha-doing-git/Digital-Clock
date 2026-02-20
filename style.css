@@ -5,10 +5,22 @@ body{
     justify-content: center;
     align-items: center;
     background: black;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 
+#toggleBtn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 15px;
+    font-size: 9px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #b6c3f1;
+    font-weight: bold;
+}
 .clock-container{
     background: #070114;
     padding: 40px 80px;
